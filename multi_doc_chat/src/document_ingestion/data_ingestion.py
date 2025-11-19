@@ -10,7 +10,7 @@ from multi_doc_chat.exception.custom_exception import DocumentPortalException
 import json
 import uuid
 from datetime import datetime
-from multi_doc_chat.utils.file_io import save_uploaded_files
+from multi_doc_chat.utils.files_io import save_uploaded_files
 from multi_doc_chat.utils.document_ops import load_documents
 import hashlib
 import sys
